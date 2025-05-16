@@ -1,0 +1,53 @@
+main{
+    margin-left: 200px;
+}
+header h1{
+    margin-bottom: 60px;
+    text-align: center;
+}
+main div{
+    display: inline-block;
+    width: 20%;
+    font-size: 15px;
+    margin-left: 40px;
+    /* background-color: skyblue; */
+   
+    /* box-shadow: 0px 0px 6px rgb(255, 255, 255, 0.7); */
+    /* box-shadow: 0px -10px 0px hsl(289, 94%, 73%); */
+   
+}
+main .div1{
+     border-radius: 5px;
+     background-color: rgb(255, 255, 255, 0.9);
+    box-shadow: 0px -10px 0px hsla(289, 94%, 73%, 0.7);
+}
+main .div2{
+     border-radius: 5px;
+    box-shadow: 0px -10px 0px hsl(199, 100%, 73%);
+}
+main .div3{
+     border-radius: 5px;
+    box-shadow: 0px -10px 0px hsl(173, 100%, 45%);
+}
+main .div1 h3, main .div2 h3, main .div3 h3{
+    color: hsl(211, 100%, 19%);
+   font-weight: 700;
+   
+    
+}
+main div p{
+    margin-bottom: 50px;
+    color: hsl(211, 100%, 19%);
+    text-align: center;
+    
+    
+}
+main .div1 a, main .div2 a, main .div3 a{
+    /* text-decoration: none; */
+    color: hsl(203, 59%, 26%);
+
+}
+main div{
+    height: 200px;
+    padding: 20px;
+}
