@@ -4,6 +4,7 @@ main{
 header h1{
     margin-bottom: 60px;
     text-align: center;
+    color: hsl(211, 100%, 19%);
 }
 main div{
     display: inline-block;
@@ -18,19 +19,24 @@ main div{
 }
 main .div1{
      border-radius: 5px;
-     background-color: rgb(255, 255, 255, 0.9);
-    box-shadow: 0px -10px 0px hsla(289, 94%, 73%, 0.7);
+     border-bottom-left-radius: 3px;
+     border-bottom-right-radius: 3px;
+     padding: 20px 60px;
+     background-color: #fff;
+     box-shadow: 0px -10px 0px rgba(0, 0, 0, 0.25);
 }
 main .div2{
      border-radius: 5px;
-    box-shadow: 0px -10px 0px hsl(199, 100%, 73%);
+      padding: 20px 60px;
+    box-shadow: 0px -10px 0px hsl(199, 100%, 73%, 0.25);
 }
 main .div3{
      border-radius: 5px;
-    box-shadow: 0px -10px 0px hsl(173, 100%, 45%);
+     padding: 20px 60px;
+    box-shadow: 0px -10px 0px hsl(173, 100%, 45%, 0.25);
 }
 main .div1 h3, main .div2 h3, main .div3 h3{
-    color: hsl(211, 100%, 19%);
+     color: hsl(199, 43%, 58%);
    font-weight: 700;
    
     
@@ -43,11 +49,12 @@ main div p{
     
 }
 main .div1 a, main .div2 a, main .div3 a{
-    /* text-decoration: none; */
-    color: hsl(203, 59%, 26%);
+    color: hsl(199, 43%, 58%);
 
 }
 main div{
-    height: 200px;
+    
     padding: 20px;
+    height: 200px;
+    /* padding: 20px; */
 }
